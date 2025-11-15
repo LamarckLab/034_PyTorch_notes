@@ -51,8 +51,12 @@ http://localhost:8899
 ```bash
 # server上运行Jupyter Lab
 jupyter lab --no-browser --port=8899
+```
+```bash
 # 在本地终端创建端口转发
 ssh -L 8899:127.0.0.1:8899 amax@192.168.208.236
+```
+```bash
 # 浏览器访问
 http://localhost:8899
 ```
