@@ -48,7 +48,7 @@ http://localhost:8899
 ```
 
 ## 启动！！！
-```
+```bash
 # server上运行Jupyter Lab
 jupyter lab --no-browser --port=8899
 # 在本地终端创建端口转发
