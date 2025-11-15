@@ -19,6 +19,8 @@
 # 开发环境配置在236 server上 (这台机子的CUDA Version:12.2)
 # 创建lmk_AI环境
 conda create -n lmk_AI python=3.10 -y
+# 安装GPU版的PyTorch
+python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 
 
