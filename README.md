@@ -21,8 +21,9 @@
 conda create -n lmk_AI python=3.10 -y
 # 安装GPU版的PyTorch
 python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-
-
-
+# 给 lmk_AI 环境安装 Jupyter 的 Python 内核支持（ipykernel包）
+python -m pip install ipykernel
+# 把 lmk_AI 这个 conda 环境注册成一个 Jupyter 可选内核，名字叫 “LMK AI (GPU)”
+python -m ipykernel install --name lmk_AI --display-name "LMK AI (GPU)"
 ```
 
