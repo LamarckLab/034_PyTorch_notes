@@ -31,3 +31,15 @@ python -m pip install jupyterlab
 jupyter lab --no-browser --port=8899
 ```
 
+## 🔐 SSH Port Forwarding（访问远程 Jupyter Lab）
+
+远程服务器上的 Jupyter Lab 默认只监听本机（`127.0.0.1`），无法从外部直接访问。  
+因此需要通过 **SSH 本地端口转发（SSH Tunnel）** 将服务器的端口映射到本地电脑。
+
+---
+
+### ▶️ 在本地终端创建端口转发
+
+```bash
+ssh -L 8899:127.0.0.1:8899 amax@192.168.208.236
+```
