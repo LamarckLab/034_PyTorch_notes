@@ -46,3 +46,13 @@ ssh -L 8899:127.0.0.1:8899 amax@192.168.208.236
 http://localhost:8899
 # 随后进入服务器端的Jupyter Lab（首次需要输入token）
 ```
+
+## 启动！！！
+```
+# server上运行Jupyter Lab
+jupyter lab --no-browser --port=8899
+# 在本地终端创建端口转发
+ssh -L 8899:127.0.0.1:8899 amax@192.168.208.236
+# 浏览器访问
+http://localhost:8899
+```
