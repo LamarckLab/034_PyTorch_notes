@@ -1,4 +1,4 @@
-<h1 align="center">🧬 Dive into Deep Learning 笔记</h1>
+<h1 align="center">🧬 《动手学深度学习》笔记</h1>
 
 <p align="center">
   <i> —— 2025.11.15</i>
