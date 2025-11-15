@@ -24,6 +24,8 @@ python -m pip install torch torchvision torchaudio --index-url https://download.
 # 给lmk_AI环境安装Jupyter的Python内核（ipykernel包）
 python -m pip install ipykernel
 # 把lmk_AI这个conda环境注册成一个Jupyter可选内核，名字叫“LMK AI (GPU)”
-python -m ipykernel install --name lmk_AI --display-name "LMK AI (GPU)"
+python -m ipykernel install --user --name lmk_AI --display-name "LMK AI (GPU)"
+# 安装Jupyter Lab
+python -m pip install jupyterlab
 ```
 
