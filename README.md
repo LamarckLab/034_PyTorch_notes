@@ -27,5 +27,7 @@ python -m pip install ipykernel
 python -m ipykernel install --user --name lmk_AI --display-name "LMK AI (GPU)"
 # 安装Jupyter Lab
 python -m pip install jupyterlab
+# 运行Jupyter Lab
+jupyter lab --no-browser --port=8899
 ```
 
