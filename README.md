@@ -8,8 +8,9 @@
   <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Framework-PyTorch-orange?logo=pytorch" />
   <img src="https://img.shields.io/badge/Platform-Linux-lightgrey?logo=linux" />
-  <img src="https://img.shields.io/badge/Status-Complete-brightgreen" />
+  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow" />
 </p>
+
 
 ---
 
